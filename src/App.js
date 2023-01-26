@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import Styles from "./CssModule.module.css";
+import Header from "./components/Header";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="container">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
